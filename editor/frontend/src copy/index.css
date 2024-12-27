@@ -1,0 +1,21 @@
+path {
+  pointer-events: all;
+}
+
+path:hover {
+  cursor: pointer;
+  fill: #faa405;
+  opacity: 0.8;
+}
+.landing-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: antiquewhite;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vw;
+}

@@ -1,0 +1,85 @@
+path {
+  pointer-events: all;
+}
+
+path:hover {
+  cursor: pointer;
+  fill: #faa405;
+  opacity: 0.8;
+}
+body {
+  margin: 0;
+}
+
+.landing-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: url(../../assets/bg.svg);
+  background-size: 450px;
+  background-attachment: fixed;
+  font-size: 10px;
+  background-color: #f6ebda;
+}
+
+.landing-page-container h1 {
+  background: #ffc600;
+  padding: 0px 2px 2px;
+  margin: 0px;
+  margin-top: 2rem;
+  display: inline;
+  line-height: 1;
+  font-size: 1.4rem;
+  transform: rotate(-2.1deg);
+  font-family: FrenchFries, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* .logo-container { */
+  /* margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+} */
+
+.logo-container {
+  background-image: url(../../assets/logo.png);
+  min-height: 23em;
+  min-width: 35em;
+  background-repeat: no-repeat;
+  margin-top: 1em;
+}
+
+.retro {
+  /* text-shadow: 0.01em 0.01em #563e2e, 0.02em 0.02em #563e2e,
+    0.03em 0.03em #563e2e, 0.04em 0.04em #563e2e, 0.05em 0.05em #563e2e,
+    0.06em 0.06em #563e2e, 0.07em 0.07em #563e2e, 0.08em 0.08em #563e2e,
+    0.09em 0.09em #563e2e, 0.1em 0.1em #563e2e, 0.11em 0.11em #563e2e,
+    0.12em 0.12em #563e2e, 0.13em 0.13em #563e2e, 0.14em 0.14em #563e2e,
+    0.15em 0.15em #563e2e, 0.16em 0.16em #563e2e, 0.17em 0.17em #563e2e,
+    0.18em 0.18em #563e2e, 0.19em 0.19em #563e2e, 0.2em 0.2em #563e2e,
+    0.21em 0.21em #d77d37, 0.22em 0.22em #d77d37, 0.23em 0.23em #d77d37,
+    0.24em 0.24em #d77d37, 0.25em 0.25em #d77d37, 0.26em 0.26em #d77d37,
+    0.27em 0.27em #d77d37, 0.28em 0.28em #d77d37, 0.29em 0.29em #d77d37,
+    0.3em 0.3em #d77d37, 0.31em 0.31em #d77d37, 0.32em 0.32em #d77d37,
+    0.33em 0.33em #d77d37, 0.34em 0.34em #d77d37, 0.35em 0.35em #d77d37,
+    0.36em 0.36em #d77d37, 0.37em 0.37em #d77d37, 0.38em 0.38em #d77d37,
+    0.39em 0.39em #d77d37, 0.4em 0.4em #d77d37, 0.41em 0.41em #e8a545,
+    0.42em 0.42em #e8a545, 0.43em 0.43em #e8a545, 0.44em 0.44em #e8a545,
+    0.45em 0.45em #e8a545, 0.46em 0.46em #e8a545, 0.47em 0.47em #e8a545,
+    0.48em 0.48em #e8a545, 0.49em 0.49em #e8a545, 0.5em 0.5em #e8a545,
+    0.51em 0.51em #e8a545, 0.52em 0.52em #e8a545, 0.53em 0.53em #e8a545,
+    0.54em 0.54em #e8a545, 0.55em 0.55em #e8a545, 0.56em 0.56em #e8a545,
+    0.57em 0.57em #e8a545, 0.58em 0.58em #e8a545, 0.59em 0.59em #e8a545,
+    0.6em 0.6em #e8a545; */
+    text-shadow: 19.01em 0.01em #563e2e, 0.02em 0.02em #563e2e, 0.03em 0.03em #563e2e, 0.04em 0.04em #563e2e, 0.05em 0.05em #563e2e, 0.06em 0.06em #563e2e, 0.07em 0.07em #563e2e, 0.08em 0.08em #563e2e, 0.13em 0.13em #563e2e, 0.14em 0.14em #563e2e, 0.15em 0.15em #563e2e, 0.16em 0.16em #563e2e, 0.17em 0.17em #563e2e, 0.18em 0.18em #563e2e, 0.21em 0.21em #ffa600, 0.22em 0.22em #ffa600, 0.23em 0.23em #d77d37, 0.24em 0.24em #d77d37, 0.25em 0.25em #d77d37, 0.26em 0.26em #D77D21, 0.27em 0.27em #d77d37, 0.28em 0.28em #d77d37, 0.31em 0.31em #d77d37, 0.32em 0.32em #d77d37, 0.33em 0.33em #d77d37, 0.34em 0.34em #D77D54;
+}
+
+.retro {
+  font-family: "Oleo Script Swash Caps", cursive;
+  font-size: 3.6rem;
+  color: #f6ce91;
+  word-spacing: 8px;
+}

@@ -1,0 +1,17 @@
+.state-card {
+  display: flex;
+  max-height: fit-content;
+  width: 15em;
+  background-color: rgb(247, 166, 15, 0.9);
+  color: white;
+  text-align: center;
+  justify-content: center;
+  border-radius: 12px;
+  margin: 1em;
+  margin-top: 0;
+  padding: 0.25em;
+}
+
+.state-card:hover {
+  cursor: pointer;
+}
